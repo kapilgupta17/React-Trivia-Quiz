@@ -1,0 +1,296 @@
+.navbar{
+  
+    width:100%;
+    display: flex;
+}
+.navbar .inst_modal{
+    width:50%;
+    
+    display:inline-flex;
+    justify-content: center;
+}
+.navbar .inst_modal button{
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar .inst_modal button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+.navbar p.app_name{
+    width:50%;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar p.app_name a{
+    text-decoration: none;
+    color: white;
+}
+.notif{
+    color:#F5F5DC;
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+}
+dialog#instructions{
+    background-color:white;
+    border:2px solid black;
+    color: black;
+    border-radius: 10px;
+    width:30%;
+    height:32%;
+    padding:30px;
+    padding-top: 0;
+
+}
+dialog#instructions h2{
+    text-align: center;
+}
+dialog#instructions ul{
+    list-style:circle;
+}
+dialog#instructions li span{
+    color:red;
+}
+dialog#instructions button{
+    border:2px solid black;
+    background-color: transparent;
+    color: black;
+    padding:4px;
+    border-radius: 10px;
+    float:right;
+}
+
+dialog#instructions button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.startButton{
+    width:50%;
+    height:50%;
+    background-color: transparent;
+    border:3px solid red;
+    border-radius: 100px;
+
+}
+.startButton:hover{
+    background-color: red;
+    color: black;
+    transition: 0.6s;
+}
+.startButton:hover a{
+    color: white;
+    padding:15px;
+}
+.startButton a{
+    text-decoration: none;
+    font-size: 100px;
+    color:red;
+    width:100%;
+    height: 100%;
+}
+
+.filter-option{
+    margin:15px;
+    width:20%;
+    height:10%;
+    background-color: transparent;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.amount{
+    border:3px solid tomato;
+    color:tomato;
+}
+/* .amount::placeholder{
+    color:tomato;
+} */
+
+.amount:hover{
+    background-color: tomato;
+    color: white;
+    transition: 0.4s;
+}
+.amount-filled{
+    background-color: tomato;
+    color: white;
+}
+.category{
+    border:3px solid #20C4D7;
+    color:#20C4D7;
+}
+.category:hover{
+    background-color: #20C4D7;
+    color: white;
+    transition: 0.4s;
+}
+.category-filled{
+    background-color: #20C4D7;
+    color: white;
+}
+.difficulty{
+    border:3px solid #26D720;
+    color:#26D720;
+}
+.difficulty:hover{
+    background-color: #26D720;
+    color: white;
+    transition: 0.4s;
+}
+.difficulty-filled{
+    background-color: #26D720;
+    color: white;
+}
+.startgame{
+    background-color: transparent;
+    border:3px solid red;
+    color:red;
+}
+.startgame:hover{
+    background-color: red;
+    color: white;
+    transition: 0.6s;
+}
+.question-modal{
+    width:70%;
+    margin-top:20px;
+}
+.scorebar{
+    display: flex;
+    justify-content: space-between;
+    padding:0 15px 0 15px;
+    padding-top:0;
+    color:Red;
+    font-size: 32px;
+}
+.questionbox{
+    color:#F5F5DC;
+    text-align: center;
+    
+}
+.questionbox .option-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.questionbox ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    width:30%;
+}
+
+.questionbox ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    width:100%;
+    font-size: 20px;
+}
+
+.questionbox ul li input[type="radio"] {
+    margin-right: 10px; 
+    width: 40px;
+    height: 40px;
+}
+  
+.questionbox ul li label {
+    width:100%;
+    height:100%;
+    padding:20px 20px 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.questionbox ul li label:hover {
+    background-color: #F5F5DC;
+    color: #000;
+    transition: 0.5s;
+}
+
+.correct{
+    background-color: #32CD32!important;
+    color: #fff !important;
+}
+.correct:hover{
+    background-color: #32CD32 !important;
+    color: #fff !important;
+}
+
+.incorrect{
+    background-color: #FF0000 !important;
+    color: #fff !important;
+}
+.incorrect:hover{
+    background-color: #FF0000 !important;
+    color: #fff !important;
+}
+
+.questionbox .ques-submit{
+    background-color: transparent;
+    width:20%;
+    height:10%;
+    font-size: 22px;
+    border-radius: 10px;
+    border:3px solid red;
+    color:red;
+    margin:20px;
+    padding:15px;
+}
+.questionbox .ques-submit:hover{
+    background-color: red;
+    color: white;
+    transition: 0.6s;
+}
+
+.final-score{
+    color: #F5F5DC;
+    text-align: center;
+    font-size: 25px;
+}
+.finalbutton a{
+    text-decoration: none;
+    color:red;
+}
+
+.finalbutton{
+    background-color: transparent;
+    width:20%;
+    height:10%;
+    font-size: 22px;
+    border-radius: 10px;
+    border:3px solid red;
+    color:red;
+    margin:20px;
+    padding:15px;
+}
+
+.finalbutton:hover{
+    background-color: red;
+    color: white;
+    transition: 0.6s;
+}
+
+.finalbutton:hover a{
+    color: white;
+}
+
+.timer h2{
+    color:red;
+}
+
+.final-score .quest_list{
+    text-align: left;
+}
