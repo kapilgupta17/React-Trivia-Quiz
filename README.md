@@ -7,9 +7,7 @@ This is a Trivia Quiz app built with React, TypeScript, and React Query. The app
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API](#api)
-- [Project Structure](#project-structure)
-- [Credits](#credits)
+
 
 ## Features
 
