@@ -1,12 +1,5 @@
 import axios from "axios";
 
-/*
-
-NOTE:
-
-This exists to create some transient errors. Please handle the errors.
-
-*/
 
 class UnreliableAxios {
   public async get(path: string) {
